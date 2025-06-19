@@ -3,7 +3,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 export default function Reviews() {
-  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
+  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
   return (
     <section
       ref={ref}
