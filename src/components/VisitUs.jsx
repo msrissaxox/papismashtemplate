@@ -1,5 +1,14 @@
+"use client";
+import React from "react";
+import { useInView } from "react-intersection-observer";
+
 export default function VisitUs() {
+const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
   return (
+    <section
+      ref={ref}
+      className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
+    
     <div
       className="flex flex-col items-center justify-center py-36 mt-20 bg-gradient-to-br from-pink-600 to-orange-400 text-white"
       id="contact"
@@ -11,5 +20,6 @@ export default function VisitUs() {
       <p>Orlando, FL 32801</p>
       <p>Downtown Orlando</p>
     </div>
+    </section>
   );
 }

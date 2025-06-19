@@ -1,5 +1,13 @@
+"use client";
+import React from "react";
+import { useInView } from "react-intersection-observer";
+
 export default function Reviews() {
+  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
   return (
+    <section
+      ref={ref}
+      className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
     <div className="py-36 mt-20">
       <h1 className="text-4xl text-center bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold mb-6">
         FROM OUR COMMUNITY
@@ -47,5 +55,6 @@ export default function Reviews() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

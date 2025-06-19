@@ -11,12 +11,8 @@
   "dependencies": {
     "next": "15.3.3",
     "react": "^19.0.0",
-<<<<<<< HEAD
     "react-dom": "^19.0.0",
     "react-intersection-observer": "^9.16.0"
-=======
-    "react-dom": "^19.0.0"
->>>>>>> c2f5b35c932e88b50eab3ba6029c9f953693cb29
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
