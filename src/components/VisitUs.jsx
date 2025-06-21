@@ -10,7 +10,7 @@ const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
       className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
     
     <div
-      className="flex flex-col items-center justify-center py-36 mt-20 bg-gradient-to-br from-pink-600 to-orange-400 text-white"
+      className="flex flex-col items-center justify-center py-36 bg-gradient-to-br from-pink-500 to-orange-300 text-white"
       id="contact"
     >
       <h1 className="text-5xl font-bold mb-6">VISIT US</h1>

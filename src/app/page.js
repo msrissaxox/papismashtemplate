@@ -2,8 +2,6 @@
 //3. FIX ON THE MENU SECTION
 //4. FIX REVIEWS SECTION
 
-// bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent
-
 
 import react from "react";
 

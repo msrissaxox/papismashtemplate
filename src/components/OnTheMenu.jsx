@@ -8,9 +8,9 @@ export default function OnTheMenu() {
   return (
   <section
     ref={ref}
-    className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
+    className= {`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
 
-  <div className="flex justify-center items-center py-36 bg-gray-100 p-20">
+  <div className="justify-center items-center py-36 bg-gray-100 p-20">
       <div className="flex flex-col items-start w-1/3 pr-12">
         <h2 className="text-2xl bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold mb-10 md:text-4xl">
           ON THE MENU
@@ -28,8 +28,10 @@ export default function OnTheMenu() {
         </button>
       </div>
 
-      <div className="relative flex flex-col mt-6 pb-5 mx-5 text-gray-700 bg-white  shadow-md bg-clip-border rounded-xl w-66">
-        <div className="relative h-56 mx-4 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+
+<div className="flex md:flex-col justify-center items-center gap-6">
+      <div className="relative flex-col md:flex-row mt-6 pb-5 mx-5 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-66">
+        <div className="relative h-56  overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
           <img src="papi4.png" alt="card-image" />
         </div>
         <div className="p-6">
@@ -46,8 +48,8 @@ export default function OnTheMenu() {
 
 
 
-      <div className="relative flex flex-col mt-6 pb-5 mx-5 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-66">
-        <div className="relative h-56 mx-4 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+      <div className="relative flex-col  mt-6 pb-5 mx-5 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-66">
+        <div className="relative h-56  overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
           <img src="papi5.png" alt="card-image" />
         </div>
         <div className="p-6">
@@ -61,8 +63,8 @@ export default function OnTheMenu() {
       </div>
 
 
-      <div className="relative flex flex-col mt-6 pb-5 mx-5 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-66">
-        <div className="relative h-56 mx-4 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+      <div className="relative flex-col  mt-6 pb-5 mx-5 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-66">
+        <div className="relative h-56  overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
           <img src="papi2.png" alt="card-image" />
         </div>
         <div className="p-6">
@@ -74,7 +76,13 @@ export default function OnTheMenu() {
           </p>
         </div>
       </div>
+
+</div>
+
+
     </div>
+
+
     </section>
   );
 }

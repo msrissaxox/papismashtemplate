@@ -9,7 +9,7 @@ export default function OurStory() {
       ref={ref}
       className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
       <div className="flex flex-col items-center justify-center bg-gradient-to-r from-gray">
-    <div className="py-36 mt-20 bg-white" id="ourstory">
+    <div className="py-5 mt-20 bg-white" id="ourstory">
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-5/12">
@@ -20,7 +20,7 @@ export default function OurStory() {
             />
           </div>
           <div className="md:7/12 lg:w-6/12">
-            <h2 className="text-2xl bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold md:text-4xl">
+            <h2 className="text-2xl text-center bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold md:text-4xl">
               OUR STORY
             </h2>
             <p className="mt-6 text-gray-600">
