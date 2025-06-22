@@ -10,7 +10,7 @@ import Hero from "@/components/Hero";
 import OurStory from "@/components/OurStory";
 import Ingredients from "@/components/Ingredients";
 import OnTheMenu from "@/components/OnTheMenu";
-import Reviews from "@/components/Reviews";
+// import Reviews from "@/components/Reviews";
 import VisitUs from "@/components/VisitUs";
 import Footer from "@/components/Footer";
 import './globals.css'; // Ensure you have global styles imported
@@ -26,7 +26,7 @@ export default function Home() {
       <OurStory />
       <Ingredients />
       <OnTheMenu />
-      <Reviews />
+      {/* <Reviews /> */}
       <VisitUs />
       <Footer />
     </div>

@@ -8,7 +8,7 @@ export default function OurStory() {
     <section
       ref={ref}
       className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
-      <div className="flex flex-col items-center justify-center bg-gradient-to-r from-gray">
+      <div className="flex flex-col items-center justify-center bg-white">
     <div className="py-5 mt-20 bg-white" id="ourstory">
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">

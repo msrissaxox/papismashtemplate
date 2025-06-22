@@ -53,7 +53,7 @@ export default function OnTheMenu() {
 
   <div className="justify-center items-center bg-gray-100 p-20">
       <div className="flex flex-col items-center mb-10">
-        <h2 className="text-4xl sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
+        <h2 className="text-4xl text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
           On The Menu
         </h2>
         <button
@@ -64,7 +64,7 @@ export default function OnTheMenu() {
             href="https://www.ubereats.com/store/papi-smsh-burger/IXK7x2a1VTSwARhiURPhPw?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
             target="_blank"
           >
-            View Full Menu
+            Order Here
           </a>
         </button>
       </div>

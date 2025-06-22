@@ -6,10 +6,10 @@ import { IoLogoFacebook } from "react-icons/io5";
 export default function Footer() {
   return (
     <footer className="px-6 flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 py-6 text-center md:justify-between">
-      <Typography color="blue-gray" className="font-normal">
+      <Typography color="" className="sarina text-lg bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
         &copy; 2025 Papi Smash'd
       </Typography>
-      <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
+      <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 ">
         
         <a
       href="https://www.facebook.com/papismashd"

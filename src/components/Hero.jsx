@@ -14,7 +14,7 @@ export default function Hero() {
     <section
       className={`transition-opacity duration-500 ${visible ? "opacity-100" : "opacity-0"}`}>
     
-    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-gray-300 to-white text-white px-4 py-10 md:py-20 pb-20 ">
+    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-gray-500 to-white text-white px-4 py-10 md:py-20 pb-20 ">
       {/* <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold pt-20 text-center bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
         PAPI SMASH'D
       </h1> */}
