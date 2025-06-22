@@ -53,8 +53,8 @@ export default function OnTheMenu() {
 
   <div className="justify-center items-center bg-gray-100 p-20">
       <div className="flex flex-col items-center mb-10">
-        <h2 className="text-2xl bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold mb-10 md:text-4xl">
-          ON THE MENU
+        <h2 className="text-4xl sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
+          On The Menu
         </h2>
         <button
           type="button"

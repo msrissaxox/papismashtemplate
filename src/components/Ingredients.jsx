@@ -13,8 +13,8 @@ export default function Ingredients() {
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-5/12">
-            <h2 className="text-2xl bg-gradient-to-r text-center from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold  md:text-4xl">
-              FRESH INGREDIENTS
+            <h2 className="text-4xl bg-gradient-to-r sarina text-center from-pink-500 to-orange-400 bg-clip-text text-transparent md:text-5xl">
+              Fresh Ingredients
             </h2>
 
             <p className="mt-6 text-gray-600">

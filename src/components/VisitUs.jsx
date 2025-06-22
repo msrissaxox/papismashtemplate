@@ -13,7 +13,7 @@ const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
       className="flex flex-col items-center justify-center py-36 bg-gradient-to-br from-pink-500 to-orange-300 text-white"
       id="contact"
     >
-      <h1 className="text-5xl font-bold mb-6">VISIT US</h1>
+      <h1 className="text-4xl sarina mb-6 md:text-5xl">Visit Us</h1>
       <p className="max-w-xl text-3xl text-center mb-8">Papi Smash'd</p>
       <p>407-730-4894</p>
       <p>66 E. Pine Street</p>

@@ -9,8 +9,8 @@ export default function Reviews() {
       ref={ref}
       className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
     <div className="py-36 bg-gradient-to-r from-gray-200 to-white">
-      <h1 className="text-4xl text-center bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold mb-20">
-        FROM OUR COMMUNITY
+      <h1 className="text-4xl sarina text-center bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-20 md:text-5xl">
+        From our Community
       </h1>
 
       <div className="flex justify-center items-center">

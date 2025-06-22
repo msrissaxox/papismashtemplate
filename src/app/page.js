@@ -13,6 +13,8 @@ import OnTheMenu from "@/components/OnTheMenu";
 import Reviews from "@/components/Reviews";
 import VisitUs from "@/components/VisitUs";
 import Footer from "@/components/Footer";
+import './globals.css'; // Ensure you have global styles imported
+
 
 export default function Home() {
 

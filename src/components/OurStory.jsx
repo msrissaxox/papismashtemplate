@@ -20,8 +20,8 @@ export default function OurStory() {
             />
           </div>
           <div className="md:7/12 lg:w-6/12">
-            <h2 className="text-2xl text-center bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold md:text-4xl">
-              OUR STORY
+            <h2 className="text-4xl text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent md:text-5xl">
+              Our Story
             </h2>
             <p className="mt-6 text-gray-600">
               At Papi Smash'd Burger, we believe in serving up the best smash
