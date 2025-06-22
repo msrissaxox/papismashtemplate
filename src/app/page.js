@@ -12,6 +12,7 @@ import Ingredients from "@/components/Ingredients";
 import OnTheMenu from "@/components/OnTheMenu";
 import Reviews from "@/components/Reviews";
 import VisitUs from "@/components/VisitUs";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -25,6 +26,7 @@ export default function Home() {
       <OnTheMenu />
       <Reviews />
       <VisitUs />
+      <Footer />
     </div>
   );
 }
