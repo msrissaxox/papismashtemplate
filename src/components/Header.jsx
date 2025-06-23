@@ -19,7 +19,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#ourstory" className="flex items-center text-black hover:text-blue-500 transition-colors">
+        <Link href="#ourstory" className="flex items-center text-black hover:text-gray-700 transition-colors">
           About
         </Link>
       </Typography>
@@ -29,7 +29,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#contact" className="flex items-center text-black hover:text-blue-500 transition-colors">
+        <Link href="#contact" className="flex items-center text-black hover:text-gray-700 transition-colors">
           Contact Us
         </Link>
       </Typography>
@@ -53,7 +53,7 @@ useEffect(() => {
   }, []);
  
   return (
-    <Navbar className="px-6 py-3">
+    <Navbar className="px-6 py-3 rounded-none">
       <div className="flex items-center justify-between text-blue-gray-900">
        <Typography
   as="a"
