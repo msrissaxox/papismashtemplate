@@ -59,7 +59,7 @@ useEffect(() => {
   as="a"
   href="#"
   variant="h6"
-  className="mr-4 cursor-pointer sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold text-4xl py-1.5"
+  className="mr-4 cursor-pointer sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold text-2xl sm:text-5xl lg:text-7xl py-1.5"
 >
   Papi Smash'd
 </Typography>
