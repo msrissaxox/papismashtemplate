@@ -58,7 +58,7 @@ export default function OnTheMenu() {
     ref={ref}
     className= {`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
 
-  <div className="justify-center items-center bg-gray-100 py-15">
+  <div className="justify-center items-center bg-gray-100 py-15 max-w-screen">
       <div className="flex flex-col items-center mb-10">
         <h2 className="text-4xl px-2.5 text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
           On The Menu
