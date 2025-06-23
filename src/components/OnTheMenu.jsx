@@ -79,26 +79,26 @@ export default function OnTheMenu() {
     <div className="slider-container ">
       <Slider {...settings}>
         <div>
-          <img src={"papi1.png"}className="w-full h-64 object-cover rounded-lg"/>
+          <img src={"papi7.jpg"}className="w-full h-104 object-cover rounded-lg"/>
         </div>
         <div>
-          <img src={"papi2.png"} className="w-full h-64 object-cover rounded-lg" />
+          <img src={"papi8.jpg"} className="w-full h-104 object-cover rounded-lg" />
         </div>
         <div>
-          <img src={"papi3.png"} className="w-full h-64 object-cover rounded-lg" />
+          <img src={"papi9.jpg"} className="w-full h-104 object-cover rounded-lg" />
         </div>
         <div>
-          <img src={"papi4.png"} className="w-full h-64 object-cover rounded-lg" />
+          <img src={"papi10.jpg"} className="w-full h-104 object-cover rounded-lg" />
         </div>
-            <div>
-          <img src={"papi2.png"} className="w-full h-64 object-cover rounded-lg" />
-        </div>
+            {/* <div>
+          <img src={"papi2.png"} className="w-full h-104 object-cover rounded-lg" />
+        </div> */}
         <div>
-          <img src={"papi3.png"}className="w-full h-64 object-cover rounded-lg"/>
+          <img src={"papi3.png"}className="w-full h-104 object-cover rounded-lg"/>
         </div>
-        <div>
-          <img src={"papi4.png"} className="w-full h-64 object-cover rounded-lg" />
-        </div>
+        {/* <div>
+          <img src={"papi4.png"} className="w-full h-104 object-cover rounded-lg" />
+        </div> */}
       </Slider>
     </div>
 
