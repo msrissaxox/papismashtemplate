@@ -23,7 +23,7 @@ export default function OurStory() {
             <h2 className="text-4xl px-2.5 py-10 text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent md:text-5xl">
               Our Story
             </h2>
-            <p className=" text-gray-600 quicksand">
+            <p className=" text-gray-600 quicksand text-lg">
               At Papi Smash'd Burger, we believe in serving up the best smash
               style burgers with a Latin flare. The Latin spin is inspired by
               our Founders Father. Our burgers are made fresh daily with only

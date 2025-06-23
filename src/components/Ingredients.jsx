@@ -17,7 +17,7 @@ export default function Ingredients() {
               Fresh Ingredients
             </h2>
 
-            <p className="mt-6 text-black quicksand">
+            <p className="mt-6 text-black text-lg quicksand">
               Our Menu is Bursting with Flavor Our Latin-inspired menu is
               completely based on fresh, seasonal ingredients. We believe in
               using only the best ingredients to create the most delicious
