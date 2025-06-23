@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import OnTheMenu from "./OnTheMenu";
 
 export default function Hero() {
 
@@ -23,10 +24,13 @@ export default function Hero() {
        
         Delicious Food for Every Mood{" "}
       </h2> */}
-      <img src="papi1.png" alt="Papi Smash'd Logo" 
+      {/* <img src="papi1.png" alt="Papi Smash'd Logo" 
   className="w-full sm:max-w-lg md:max-w-3xl lg:max-w-4xl h-auto mt-4"
- />
+ /> */}
+
+
     </div>
+    <OnTheMenu />
     </section>
   );
 }

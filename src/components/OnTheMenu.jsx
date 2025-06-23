@@ -9,13 +9,20 @@ export default function OnTheMenu() {
   const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
   
   const settings = {
-    dots: true,
+    // dots: true,
+    // infinite: true,
+    // speed: 500,
+    // slidesToShow: 4,
+    // slidesToScroll: 4,
+    // initialSlide: 0,
+    //     waitForAnimate: false,
+        dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    initialSlide: 0,
-        waitForAnimate: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
 
     responsive: [
       {
@@ -51,9 +58,9 @@ export default function OnTheMenu() {
     ref={ref}
     className= {`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
 
-  <div className="justify-center items-center bg-gray-100 p-20">
+  <div className="justify-center items-center bg-gray-100 py-15">
       <div className="flex flex-col items-center mb-10">
-        <h2 className="text-4xl text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
+        <h2 className="text-4xl px-2.5 text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
           On The Menu
         </h2>
         <button

@@ -25,7 +25,7 @@ export default function Home() {
       <Hero />
       <OurStory />
       <Ingredients />
-      <OnTheMenu />
+      {/* <OnTheMenu /> */}
       {/* <Reviews /> */}
       <VisitUs />
       <Footer />

@@ -19,7 +19,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#ourstory" className="flex items-center text-black hover:text-gray-700 transition-colors">
+        <Link href="#ourstory" className="flex items-center text-black quicksand hover:text-gray-700 transition-colors">
           About
         </Link>
       </Typography>
@@ -29,7 +29,7 @@ function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <Link href="#contact" className="flex items-center text-black hover:text-gray-700 transition-colors">
+        <Link href="#contact" className="flex items-center quicksand  text-black hover:text-gray-700 transition-colors">
           Contact Us
         </Link>
       </Typography>
@@ -42,7 +42,7 @@ function NavList() {
    <a href="https://www.ubereats.com/store/papi-smsh-burger/IXK7x2a1VTSwARhiURPhPw?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
   target="_blank"
   rel="noopener noreferrer"
-      className="flex items-center text-black hover:text-gray-700 transition-colors"
+      className="flex items-center text-black quicksand hover:text-gray-700 transition-colors"
 
 >
 
@@ -74,7 +74,7 @@ useEffect(() => {
   as="a"
   href="#"
   variant="h6"
-  className="mr-4 cursor-pointer sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold text-2xl sm:text-5xl lg:text-7xl py-1.5"
+  className="mr-4 cursor-pointer sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold text-2xl sm:text-5xl lg:text-7xl py-1.5 px-2.5"
 >
   Papi Smash'd
 </Typography>
