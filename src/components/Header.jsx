@@ -33,7 +33,22 @@ function NavList() {
           Contact Us
         </Link>
       </Typography>
- 
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-medium"
+      >
+   <a href="https://www.ubereats.com/store/papi-smsh-burger/IXK7x2a1VTSwARhiURPhPw?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
+  target="_blank"
+  rel="noopener noreferrer"
+      className="flex items-center text-black hover:text-gray-700 transition-colors"
+
+>
+
+  Order
+</a>
+ </Typography>
     </ul>
   );
 }

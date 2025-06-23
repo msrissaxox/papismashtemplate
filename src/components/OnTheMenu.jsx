@@ -69,7 +69,7 @@ export default function OnTheMenu() {
         </button>
       </div>
 
-    <div className="slider-container">
+    <div className="slider-container ">
       <Slider {...settings}>
         <div>
           <img src={"papi1.png"}className="w-full h-64 object-cover rounded-lg"/>

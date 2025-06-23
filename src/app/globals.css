@@ -32,3 +32,7 @@ font-family:  Arial, Helvetica, sans-serif;
 .sarina {
   font-family: 'Sarina', cursive, sans-serif;
 }
+
+.slick-slide img {
+  border-radius: 0.5rem; /* matches Tailwind's rounded-lg */
+}
