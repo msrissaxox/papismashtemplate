@@ -93,9 +93,9 @@ export default function OnTheMenu() {
             {/* <div>
           <img src={"papi2.png"} className="w-full h-104 object-cover rounded-lg" />
         </div> */}
-        <div>
+        {/* <div>
           <img src={"papi3.png"}className="w-full h-104 object-cover rounded-lg"/>
-        </div>
+        </div> */}
         {/* <div>
           <img src={"papi4.png"} className="w-full h-104 object-cover rounded-lg" />
         </div> */}
