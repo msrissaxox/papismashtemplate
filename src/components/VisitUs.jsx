@@ -10,11 +10,12 @@ const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
       className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
     
     <div
-      className="flex flex-col items-center justify-center py-15 bg-gradient-to-br from-pink-500 to-orange-300 text-white"
+      className="flex flex-col items-center justify-center py-15       bg-gradient-to-r from-fuchsia-500 to-cyan-500
+ text-black"
       id="contact"
     >
-       <h1 className="text-4xl sarina mb-6 md:text-5xl">Visit Us</h1>
-      <p className="max-w-xl text-3xl quicksand text-center">Papi Smash'd</p>
+       <h1 className="text-4xl quicksand font-bold mb-6 md:text-5xl">Visit Us</h1>
+      <p className="max-w-xl text-3xl quicksand text-center">Burger Joint</p>
       <h3 className="text-2xl quicksand font-bold mb-4 mt-6">Hours</h3>
 <div className="grid grid-cols-2 quicksand gap-x-6 gap-y-2 text-lg mb-8 max-w-md w-75% justify-items-start break-words">
         <span className="font-semibold">Mon</span>
@@ -34,8 +35,8 @@ const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: false });
       </div>
 
 <div className="quicksand">
-      <p>407-730-4894</p>
-      <p>66 E. Pine Street</p>
+      <p>407-730-4888</p>
+      <p>646 E. Pine Street</p>
       <p>Orlando, FL 32801</p>
       <p>Downtown Orlando</p>
       </div>

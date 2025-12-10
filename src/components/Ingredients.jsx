@@ -9,29 +9,56 @@ export default function Ingredients() {
 <section
       ref={ref}
       className={`transition-opacity duration-1000 ${inView ? "opacity-100" : "opacity-0"}`}>
-<div className="py-15  bg-gradient-to-r from-gray-500 to-white">
-      <div className="container m-auto px-6 text-white md:px-12 xl:px-6">
-        <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-          <div className="md:5/12 lg:w-5/12">
-            <h2 className="text-4xl bg-gradient-to-r sarina text-center from-pink-500 to-orange-400 bg-clip-text text-transparent md:text-5xl px-1.5 py-2.5">
+<div className="relative w-full overflow-hidden">
+    <div className="area">
+        <ul className="circles">
+               <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+<div className="relative z-20 py-16 md:py-20 lg:py-24">
+      <div className="container m-auto px-6 md:px-12 xl:px-6">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 lg:items-center">
+          {/* Mobile/Tablet layout - stacked: title, image, text */}
+          <div className="flex flex-col lg:hidden w-full">
+            <h2 className="text-4xl quicksand font-bold text-center bg-black bg-clip-text text-transparent md:text-5xl mb-6">
               Fresh Ingredients
             </h2>
-
-            <p className="mt-6 text-black text-lg quicksand">
-              Our Menu is Bursting with Flavor Our Latin-inspired menu is
-              completely based on fresh, seasonal ingredients. We believe in
-              using only the best ingredients to create the most delicious
-              burgers you'll ever taste.
+            <img
+              src="burger3.jpg"
+              className="w-full max-w-md mx-auto h-64 md:h-96 rounded-lg shadow-lg object-cover mb-6"
+            />
+            <p className="text-black text-base md:text-lg quicksand text-center">
+              We believe extraordinary food starts with extraordinary ingredients. That's why our kitchen works directly with local farmers, ranchers, and artisans who share our commitment to sustainability and quality. Our menu shifts with the seasons, ensuring that every bite you take is at peak freshness and flavor. From the farm to your fork, fast.
             </p>
           </div>
-          <div className="md:7/12 lg:w-6/12">
+
+          {/* Desktop layout - text and image side by side */}
+          <div className="hidden lg:block lg:w-5/12">
+            <h2 className="text-4xl quicksand font-bold text-center lg:text-left bg-black bg-clip-text text-transparent md:text-5xl mb-6">
+              Fresh Ingredients
+            </h2>
+            <p className="text-black text-lg quicksand">
+              We believe extraordinary food starts with extraordinary ingredients. That's why our kitchen works directly with local farmers, ranchers, and artisans who share our commitment to sustainability and quality. Our menu shifts with the seasons, ensuring that every bite you take is at peak freshness and flavor. From the farm to your fork, fast.
+            </p>
+          </div>
+          <div className="hidden lg:block lg:w-5/12">
             <img
-              src="papi3.png"
-              className="rounded-lg shadow-lg object-cover"
-            />{" "}
+              src="burger3.jpg"
+              className="w-full h-auto rounded-lg shadow-lg object-cover"
+            />
           </div>
         </div>
       </div>
+    </div>
     </div>
     </section>
   );

@@ -60,12 +60,14 @@ export default function OnTheMenu() {
 
   <div className="justify-center items-center bg-gray-100 py-15 max-w-screen">
       <div className="flex flex-col items-center mb-10">
-        <h2 className="text-4xl px-2.5 text-center sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent mb-10 md:text-5xl">
+        <h2 className="text-4xl px-2.5 text-center quicksand font-bold       bg-gradient-to-r from-fuchsia-500 to-cyan-500
+ bg-clip-text text-transparent mb-10 md:text-5xl">
           On The Menu
         </h2>
         <button
           type="button"
-          className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 rounded-lg text-md font-bold px-5 py-2.5 text-center me-2 mb-2"
+          className="text-white       bg-gradient-to-r from-fuchsia-500 to-cyan-500
+hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 rounded-lg text-md font-bold px-5 py-2.5 text-center me-2 mb-2"
         >
           <a
             href="https://www.ubereats.com/store/papi-smsh-burger/IXK7x2a1VTSwARhiURPhPw?diningMode=DELIVERY&sc=SEARCH_SUGGESTION"
@@ -79,26 +81,26 @@ export default function OnTheMenu() {
     <div className="slider-container ">
       <Slider {...settings}>
         <div>
-          <img src={"papi7.jpg"}className="w-full h-104 object-cover rounded-lg"/>
+          <img src={"burger.jpg"}className="w-full h-104 object-cover rounded-lg"/>
         </div>
         <div>
-          <img src={"papi8.jpg"} className="w-full h-104 object-cover rounded-lg" />
+          <img src={"burger2.jpg"} className="w-full h-104 object-cover rounded-lg" />
         </div>
         <div>
-          <img src={"papi9.jpg"} className="w-full h-104 object-cover rounded-lg" />
+          <img src={"burger3.jpg"} className="w-full h-104 object-cover rounded-lg" />
         </div>
         <div>
-          <img src={"papi10.jpg"} className="w-full h-104 object-cover rounded-lg" />
+          <img src={"burger4.jpg"} className="w-full h-104 object-cover rounded-lg" />
         </div>
-            {/* <div>
-          <img src={"papi2.png"} className="w-full h-104 object-cover rounded-lg" />
-        </div> */}
-        {/* <div>
-          <img src={"papi3.png"}className="w-full h-104 object-cover rounded-lg"/>
-        </div> */}
-        {/* <div>
-          <img src={"papi4.png"} className="w-full h-104 object-cover rounded-lg" />
-        </div> */}
+            <div>
+          <img src={"burger5.jpg"} className="w-full h-104 object-cover rounded-lg" />
+        </div>
+        <div>
+          <img src={"burger6.jpg"}className="w-full h-104 object-cover rounded-lg"/>
+        </div>
+        <div>
+          <img src={"burger7.jpg"} className="w-full h-104 object-cover rounded-lg" />
+        </div>
       </Slider>
     </div>
 

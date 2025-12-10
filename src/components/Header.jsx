@@ -68,15 +68,15 @@ useEffect(() => {
   }, []);
  
   return (
-    <Navbar className="px-6 py-3 rounded-none">
+    <Navbar className="px-6 py-4 rounded-none">
       <div className="flex items-center justify-between text-blue-gray-900">
        <Typography
   as="a"
   href="#"
   variant="h6"
-  className="mr-4 cursor-pointer sarina bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent font-bold text-2xl sm:text-5xl lg:text-7xl py-1.5 px-2.5"
+  className="mr-4 cursor-pointer quicksand bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent font-bold text-2xl sm:text-5xl lg:text5xl py-1.5 px-2.5"
 >
-  Papi Smash'd
+  burger joint
 </Typography>
         <div className="hidden lg:block">
           <NavList />

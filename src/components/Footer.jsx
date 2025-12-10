@@ -6,14 +6,15 @@ import { IoLogoFacebook } from "react-icons/io5";
 export default function Footer() {
   return (
     <footer className="px-6 flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 py-6 text-center md:justify-between">
-      <Typography className="py-1.5 px-1.5 sarina text-lg bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
-        &copy; 2025 Papi Smash'd design by <a href="https://www.marissalamothe.dev
+      <Typography className="py-1.5 px-1.5 quicksand font-bold text-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500
+      bg-clip-text text-transparent">
+        &copy; 2025 Burger Joint design by <a href="https://www.marissalamothe.dev
         " target="_blank">Marissa Lamothe</a>
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 ">
         
         <a
-      href="https://www.facebook.com/papismashd"
+      href="https://www.facebook.com/"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Facebook"
@@ -24,7 +25,7 @@ export default function Footer() {
         
         <li>
       <a
-      href="https://www.instagram.com/papismashdburger"
+      href="https://www.instagram.com/"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Instagram"
